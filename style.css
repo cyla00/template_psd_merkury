@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Brain;
+  src: url('./fonts/BrainWants-ODYe.ttf');
+}
+@font-face {
+  font-family: Modern;
+  src: url('./fonts/ModernWarfare-8MM6z.ttf');
+}
+
+
+body{
+  background-image: url('./immagini/bluec.jpn');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  font-family: Brain;
+  text-align: left;
+}
+.logo{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  flex-direction: column;
+}

@@ -2,4 +2,4 @@
 
 👀cloning and stealing websites designs without consent👀🤫🤭
 
-![](./immagini/templatefull.jpg)
+![](./immagini/templateFull.jpg)

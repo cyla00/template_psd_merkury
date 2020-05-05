@@ -1,9 +1,9 @@
 @font-face {
-  font-family: Brain;
+  font-family: Brain;   /*newfont*/
   src: url('./fonts/BrainWants-ODYe.ttf');
 }
-@font-face {
-  font-family: Modern;
+@font-face{
+  font-family: Modern;   /*newfont*/
   src: url('./fonts/ModernWarfare-8MM6z.ttf');
 }
 
@@ -14,9 +14,15 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+.title{
+  display: flex;
+  flex-direction: column;
+}
 h1{
   font-family: Modern;
   text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .logo{
   display: inline-block;

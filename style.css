@@ -1,1 +1,140 @@
+@font-face {
+  font-family: Modern;
+  src: url('./fonts/ModernWarfare-8MM6z.ttf');
+}
+@font-face {
+  font-family: Brain;
+  src: url('./fonts/BrainWants-ODYe.ttf');
+}
+@font-face {
+  font-family: Nunito;
+  src: url('./fonts/NunitoRegular-vmABZ.ttf');
+}
+@font-face {
+  font-family: NunitoBold;
+  src: url('./fonts/NunitoBold-1GD50.ttf');
+}
 
+/* General body sector options */
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Navigation sector 1 */
+
+.sec_1{
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  background-image: url('./immagini/blu.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sec_1_header{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  font-family: Nunito;
+  margin-bottom: 5%;
+}
+.mainTitle{
+  color: #FFFFFF;
+  font-family: NunitoBold;
+  margin: 0px;
+}
+.MainLogo{
+  height: 54px;
+  width: 54px;
+  margin-right: 20px;
+}
+.navmenu{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+.navElements{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+#navmenuButton{
+  text-align: center;
+  background-color: #182854;
+  border-color: #5485FC;
+  color: #5485FC;
+  border-style: solid;
+  border-width: 1.4px;
+  font-family: NunitoBold;
+  border-radius: 50px;
+  width: 100px;
+  outline: 0;
+  outline: 0;
+}
+#navmenuButton:hover{
+  background-color: rgba(36,57,112, 0.5);
+  transition: 0,9s;
+}
+#navmenuButton:active{
+  background-color: white;
+}
+.list{
+  color: #FFFFFF;
+  margin-right: 30px;
+  outline: 0;
+}
+.list:hover{
+  color: rgba(128, 128, 128, 0.5);
+  text-decoration: none;
+  transition: 0,9s;
+}
+.list:active{
+  color: white;
+}
+/* Info sector 1 */
+
+.sec_1_infoStart{
+  text-align: center;
+  margin: 10%;
+  line-height: 80%;
+  font-family: Nunito;
+  color: #FFFFFF;
+}
+#line_1{
+  font-size: 40px;
+  color: #D9DCE1;
+}
+#line_2{
+  font-size: 20px;
+  color: #C4C5C9;
+  margin-bottom: 5%;
+}
+#sec_1_infoStartButton{
+  border-radius: 50px;
+  width: 200px;
+  height: 43px;
+  text-align: center;
+  background-color: #5485FC;
+  border: none;
+  font-family: NunitoBold;
+  font-size: 20px;
+  color: #FFFFFF;
+  outline: 0;
+}
+#sec_1_infoStartButton:hover{
+  background-color: rgba(36,57,112, 0.5);
+  border-style: solid;
+  border-color: #5485FC;
+  color: #5485FC;
+  transition: 0,9s;
+  outline: 0;
+}
+#sec_1_infoStartButton:active{
+  background-color: white;
+}

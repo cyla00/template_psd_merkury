@@ -211,10 +211,41 @@ body{
 }
 .coupleimg{
   width: 32vh;
+  height: 20vh;
 }
 .interactimg{
   width: 30vh;
   margin-bottom: 1vh;
+  margin-right: 2vw;
+}
+.sec3dragimg{
+  margin-top: 1vh;
+  padding-left: 1vw;
+}
+.dragimg{
+  width: 30vh;
+  margin-bottom: 0vh;
+  margin-right: 1vw;
+}
+.drahere{
+  height: 7vh;
+}
+
+.dragAndDrop{
+  margin-left: 15vw;
+  color: #FFFFFF;
+  padding: 1.5%;
+  font-family: Nunito;
+}
+.arrowbutton{
+  border-radius: 100px;
+  width: 3vh;
+  height: 3vh;
+  margin-right: 1vh;
+  background-color: #0f1a36;
+  color: #FFFFFF;
+  border-style: solid;
+  border-color: #FFFFFF;
 }
 
 /*sec 4 ###########################################################*/

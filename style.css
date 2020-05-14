@@ -25,17 +25,13 @@ body{
   margin: 0px;
 }
 /*sec 1 ###########################################################*/
-.generalimagediv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.screenimage{
-  height: 40%;
-}
-.firstimg{
+.mainimg{
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 20%;
 }
 .sec_1{
+  text-align: center;
   background-position:center;
   background-attachment: fixed;
   background-size: cover;
@@ -140,6 +136,7 @@ body{
 }
 .deck{
   padding: 5px;
+  padding-right: 5%;
   margin-left: 12%;
   margin-top: 20vh;
   margin-bottom: 20vh;
@@ -290,6 +287,7 @@ body{
 }
 .sec_4_cards{
   margin-top: 10vh;
+  margin-bottom: 10vh;
   display: inline-flex;
   width: 100%;
   justify-content: center;
@@ -311,9 +309,63 @@ body{
   height: 1em;
   margin-right: 1vw;
 }
+.paragraph4{
+  color: #999999;
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+#price{
+  font-size: 50px;
+  font-family: NunitoBold
+}
+#pricesign{
+  font-size: 30px;
+}
+#infobutton4{
+  margin-top: 4vh;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border: none;
+  border-width: 3px;
+  color: #f6f7fa;
+  background-color: #5383ff;
+}
+#infobutton4:hover{
+  background-color: #f6f7fa;
+  color: #5383ff;
+  border-color: #5383ff;
+  transition: 0,9s;
+}
+#infobutton4:active{
+  background-color: #5383ff;
+  color: #f6f7fa;
+  transition: 0,3s;
+}
+#infobutton4:focus{outline: 0}
 /*footer ###########################################################*/
 .bodyFooter{
   background-color: #0f1a36;
   width: 100%;
-  padding: 3% 3% 3% 3%;
+  padding: 3% 5% 3% 5%;
+  display: inline-flex;
+}
+.bodyfootertitle{
+  font-size: 15px;
+  color: #999999;
+  margin-right: 60%;
+}
+.end{
+  justify-content: flex-end;
+}
+#navlist4{
+  display: inline-flex;
+  justify-content: flex-end;
+  font-family: Nunito;
+  color: #999999;
+}
+#nav41{
+  margin-left: 20px;
+  justify-content: flex-end;
 }
